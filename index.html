@@ -1,4 +1,64 @@
-私のWEBSITE
 
-自己紹介
-趣味はWEB制作を教える事
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>私のWEBSITE</title>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			min-height: 100vh;
+			background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+			font-family: 'Roboto', sans-serif;
+			color: #fff;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+		.container {
+			background: rgba(30, 30, 60, 0.85);
+			border-radius: 20px;
+			box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+			padding: 40px 32px;
+			max-width: 400px;
+			text-align: center;
+		}
+		h1 {
+			font-family: 'Montserrat', sans-serif;
+			font-size: 2.5rem;
+			margin-bottom: 16px;
+			letter-spacing: 2px;
+		}
+		.icon {
+			font-size: 3rem;
+			margin-bottom: 16px;
+			color: #ffd700;
+		}
+		.profile {
+			font-size: 1.2rem;
+			margin-bottom: 12px;
+		}
+		@media (max-width: 600px) {
+			.container {
+				padding: 24px 8px;
+				max-width: 95vw;
+			}
+			h1 {
+				font-size: 2rem;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="icon"><i class="fas fa-laptop-code"></i></div>
+		<h1>私のWEBSITE</h1>
+		<div class="profile">自己紹介</div>
+		<p>趣味はWEB制作を教える事</p>
+	</div>
+</body>
+</html>
